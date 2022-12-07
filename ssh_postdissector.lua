@@ -78,7 +78,7 @@ do
 					end
 				end
 
-				parser.parse(state[num .. " " .. i], buffer, pinfo, subtree)
+				parser.parse(state[num .. " " .. i], pinfo, subtree)
 
 				remaning = remaning - curr_len
 				if(remaning > 0) then
