@@ -121,7 +121,7 @@ function m.create_dissector()
     }
 
     p.encryption_alg = Pref.enum(
-        "Encryption algorithm", 0 , "", encryption_table, false
+        "Encryption algorithm", 1 , "", encryption_table, false
     )
 
     p.enable = Pref.bool( "Decryption enabled?", false, "" )
