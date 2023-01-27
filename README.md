@@ -14,3 +14,4 @@ wireshark lua plugin that performs decryption and parsing of SSH packets
 7) move the ssh_postdissector.lua and the ssh_postdissector folder to the custom lua plugin folder of wireshark (you can find it in wireshark->help->informations->folders->personal lua plugins)
 8) reload lua plugins (analyze->reload lua plugins)
 9) you can enable the dissector and configure the session keys in the preference tab (SSH_Payload protocol)
+
